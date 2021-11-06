@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Test Suite" verbose="1" >
+    <test name="testng.annotations"   >
+        <classes>
+            <class name="testng.annotations.TestNGTest1"></class>
+            <class name="testng.annotations.TestNGTest4"></class>
+            <class name="testng.annotations.TestNGTest5"></class>
+            <class name="testng.annotations.DependencyTest"></class>
+        </classes>
+    </test>
+</suite>

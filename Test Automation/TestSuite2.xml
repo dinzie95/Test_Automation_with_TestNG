@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Test Suite" verbose="1" >
+    <test name="groups"   >
+        <groups>
+            <run>
+                <exclude name="smoke"></exclude>
+                <exclude name="reg"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="groups.GroupsTest1"></class>
+            <class name="groups.GroupsTest2"></class>
+            <class name="groups.GroupsTest3"></class>
+        </classes>
+    </test>
+</suite>
